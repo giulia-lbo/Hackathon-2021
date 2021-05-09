@@ -25,4 +25,4 @@ obs <- sapply(df$dataSets$observations, "[[", 1)[1,]
 mat <- matrix(c(country,month,obs), ncol = 3, byrow = FALSE)
 
 #export
-write.csv(mat,"Hackathon/dataset.csv")
+write.csv(mat,"dataset.csv")
